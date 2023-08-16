@@ -1,0 +1,144 @@
+@media (max-width:1400px)
+	.card_img
+		width: 160px
+		height: 160px
+	.travel
+		&__blocks
+			display: flex
+			justify-content: center
+			align-items: center
+			gap: 32px
+			flex-wrap: wrap	
+	.activities
+		&_img
+			width: 270px
+			height: 350px
+		&__wrapper
+			gap: 20px
+	.hotels
+		&_img
+			height: 340px
+			width: 285px
+		&_cards
+			gap: 15px
+		&_location
+			font-size: 12px
+@media (max-width:1200px)
+	.hotels
+		&_img
+			height: 360px
+			width: 300px
+		&_cards
+			gap: 32px
+			flex-wrap: wrap
+		&_location
+			font-size: 14px
+		&__card
+			margin: auto
+	.activities
+		&_img
+			width: 316px
+			height: 380px
+		&__wrapper
+			gap: 32px
+			flex-wrap: wrap
+	.head-section
+		padding-bottom: 30px
+	.search_bar
+		width: 300px
+		display: flex
+		flex-direction: column
+		gap: 20px
+	.search_btn
+		width: 200px
+		margin-bottom: 10px
+	.menu
+		margin: 0 12px
+	.menu__body_user
+		margin-left: 0px
+@media (max-width:992px)
+	.head-section_ico
+		display: block
+	.menu__body
+		position: absolute
+		top: 0
+		right: 100%
+		height: 100vh
+		width: 100%
+		background-color: black
+		z-index: 4
+		display: flex
+		transition: 1s
+		overflow: auto
+		&.active
+			right: 0
+			transition: 1s	
+		&_link
+			font-size: 30px
+			display: block
+			line-height: 70px
+		&_user
+			margin-top: 20px
+			align-items: center
+			&__sub-text
+				margin-bottom: 10px
+				font-size: 30px		
+			&__name
+				font-size: 30px
+			&_icon
+				width: 100px
+				height: 100px
+	.menu__list
+		flex-direction: column
+		margin: auto
+		padding: 30px
+	.menu__item
+		width: 28px
+.head-section_ico
+	&.active
+		span
+			transform: scale(0)
+			transition: .5s
+			&:first-child
+				transform: rotate(45deg)
+				top: calc( 50% - 1px )
+			&:last-child
+				transform: rotate(-45deg)
+				bottom: calc( 50% - 1px )
+.lock
+	overflow: hidden
+@media (max-width:768px)
+	.travel
+		&_block
+			display: flex
+			align-items: center
+			justify-content: center
+			flex-direction: column
+			gap: 20px
+		&_descr_bottom
+			margin-top: 50px
+.bottom_second
+	margin-top: 60px
+@media (max-width: 576px)
+	.head_top
+		display: flex
+		flex-direction: column	
+		justify-content: center
+		align-items: center	
+	.viev-all
+		margin: -30px 0 20px 0
+	.about
+		&_img
+			width: 290px
+			height: 290px
+	.foot
+		&_email
+			display: flex
+			justify-content: center
+			align-items: center
+			flex-direction: column
+	.travel_img,.activities_img,.hotels_img
+		width: 290px
+	
+		
+

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/script.js" defer ></script>
+    <title>Toorizm</title>
+</head>
+<body>
+<header id="home" class="head-section">
+<div class="container">
+    <div class="cont">
+        <a href="#home" class="menu__body_link"><img src="img/logo.svg" alt="logo" class="logo_img"></a>
+        <div class="head-section__menu">
+            <div class="head-section_ico">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__list menu">
+                    <li class="menu__item"><a href="#home" class="menu__body_link">home</a></li>
+                    <li class="menu__item"><a href="#hotels" class="menu__body_link">hotels</a></li>
+                    <li class="menu__item"><a href="#hotels" class="menu__body_link">restaurants</a></li>
+                    <li class="menu__item"><a href="#tours" class="menu__body_link">tours</a></li>
+                    <li class="menu__item"><a href="#popular" class="menu__body_link">destinations</a></li>
+                    <li class="menu__item"><a href="#activities" class="menu__body_link">activities</a></li>
+                    <li class="menu__item"><a href="#contacts" class="menu__body_link">contact</a></li>
+                    <div class="menu__body_user">
+                        <div class="menu__body_user__text">
+                            <div class="menu__body_user__sub-text">Holla,</div>
+                            <div class="menu__body_user__name">Andrii Lozovetskyi</div>
+                        </div>
+                        <img src="img/first.jpg" class="menu__body_user_icon"></img> 
+                        <span></span>
+                    </div>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+<h1>Discover the most engaging places</h1>
+<button class="head-section_button">Discover on 3D Globe</button>
+<div class="search_bar">
+    <img src="img/location.png" alt="" class="search_img">
+    <div class="search_bar__block">
+        <div class="search_descr">Location</div>
+        <select name="location" >
+            <option value="1">Explore nearby destinations</option>
+            <option value="2">Kiev</option>
+            <option value="3">Monaco</option>
+        </select>
+    </div>
+    <img src="img/transport.png" alt="" class="search_img">
+    <div class="search_bar__block">
+        <div class="search_descr">Activity</div>
+        <select name="activities" >
+            <option value="1">All Activities</option>
+            <option value="2">Car</option>
+            <option value="3">Other</option>
+        </select>
+    </div>
+    <img src="img/calendar.png" alt="" class="search_img">
+    <div class="search_bar__block">
+        <div class="search_descr">When</div>
+        <input type="date" >
+    </div>
+    <img src="img/people.png" alt="" class="search_img">
+    <div class="search_bar__block">
+        <div class="search_descr">Guests</div>
+        <select name="people" >
+            <option value="1">1 guest</option>
+            <option value="2">2 guest</option>
+            <option value="3">More guest</option>
+        </select>
+    </div>
+    <button class="search_btn"><img src="img/search.svg" alt=""></button>
+</div>
+</div>
+</header>
+<main>
+    <section id="popular" class="popular_dest">
+        <div class="container">
+            <div class="head_text">Popular Destinations</div>
+            <div class="popular_dest__cards">
+                <div class="card">
+                    <img src="img/popular_img1.png" alt="" class="card_img">
+                    <div class="card_name">Big Sur</div>
+                    <div class="card_lock">California, USA</div>
+                </div>
+                <div class="card">
+                    <img src="img/popular_img2.png" alt="" class="card_img">
+                    <div class="card_name">Prescott</div>
+                    <div class="card_lock">Arizona, USA</div>
+                </div>
+                <div class="card">
+                    <img src="img/popular_img3.png" alt="" class="card_img">
+                    <div class="card_name">Fort Mayers</div>
+                    <div class="card_lock">Florida, USA</div>
+                </div>
+                <div class="card">
+                    <img src="img/popular_img4.png" alt="" class="card_img">
+                    <div class="card_name">Tucson</div>
+                    <div class="card_lock">Arizona, USA</div>
+                </div>
+                <div class="card">
+                    <img src="img/popular_img5.png" alt="" class="card_img">
+                    <div class="card_name">St. Joseph</div>
+                    <div class="card_lock">Michigan, USA</div>
+                </div>
+                <div class="card">
+                    <img src="img/popular_img6.png" alt="" class="card_img">
+                    <div class="card_name">Madrid</div>
+                    <div class="card_lock">Spain</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hotels" class="hotels">
+        <div class="container">
+            <div class="head_top">
+                <div class="head_text">Hotels and Restaurants</div>
+                <button class="viev-all">View all <img class="viev-all_img "src="img/arrow_right.svg" alt=""></button>
+            </div>
+            <div class="hotels_cards">
+                <div class="hotels__card">
+                    <img src="img/hotels_img1.png" alt="" class="hotels_img">
+                    <div class="hotels_name">Monastero Santa Rosa Hotel & Spa</div>
+                    <div class="hotels_bottom">
+                        <img src="img/location2.svg" alt="" class="hotels_icon">
+                        <div class="hotels_location">Salerno, Italy</div>
+                        <img src="img/rating.png" alt="" class="hotels_rating">
+                    </div>
+                </div>
+                <div class="hotels__card">
+                    <img src="img/hotels_img2.png" alt="" class="hotels_img">
+                    <div class="hotels_name">Grand Hotel Tremezzo</div>
+                    <div class="hotels_bottom">
+                        <img src="img/location2.svg" alt="" class="hotels_icon">
+                        <div class="hotels_location">Salerno, Italy</div>
+                        <img src="img/rating.png" alt="" class="hotels_rating">
+                    </div>
+                </div>
+                <div class="hotels__card">
+                    <img src="img/hotels_img3.png" alt="" class="hotels_img">
+                    <div class="hotels_name">The Oberoi Udaivilas, Udaipur</div>
+                    <div class="hotels_bottom">
+                        <img src="img/location2.svg" alt="" class="hotels_icon">
+                        <div class="hotels_location">Udaipur, India</div>
+                        <img src="img/rating.png" alt="" class="hotels_rating">
+                    </div>
+                </div>
+                <div class="hotels__card">
+                    <img src="img/hotels_img4.png" alt="" class="hotels_img">
+                    <div class="hotels_name">AKA Beverly Hills</div>
+                    <div class="hotels_bottom">
+                        <img src="img/location2.svg" alt="" class="hotels_icon">
+                        <div class="hotels_location last">Los Angeles, United States</div>
+                        <img src="img/rating.png" alt="" class="hotels_rating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tours" class="travel">
+        <div class="container">
+            <div class="head_top">
+                <div class="head_text">Travel Tips and Advice</div>
+                <button class="viev-all">View all <img class="viev-all_img "src="img/arrow_right.svg" alt=""></button>
+            </div>
+            <div class="travel__blocks">
+                <div class="travel_block">
+                    <img src="img/travels_img1.png" alt="" class="travel_img">
+                    <div class="travel_descr">
+                        <div class="travel_descr_head">East Village Ice Cream Crawl
+                        </div>
+                        <div class="travel_descr_text">We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store we'll explore the story behind the business and see what makes the ice cream unique as you savor every…</div>
+                        <div class="travel_descr_bottom">
+                            <div class="travel_descr_social">Today</div>
+                            <div class="travel_descr_social">Maria Philips</div>
+                            <div class="travel_descr_social">2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="travel_block">
+                    <img src="img/travels_img2.png" alt="" class="travel_img">
+                    <div class="travel_descr">
+                        <div class="travel_descr_head">Brooklyn Bridge cinematic photo walk</div>
+                        <div class="travel_descr_text">This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at different locations upon request for an additional charge. </div>
+                        <div class="travel_descr_bottom bottom_second">
+                            <div class="travel_descr_social">Today</div>
+                            <div class="travel_descr_social">James Calzoni</div>
+                            <div class="travel_descr_social">17</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="activities" class="activities">
+        <div class="container">
+            <div class="head_top">
+                <div class="head_text">Activities</div>
+                <button class="viev-all">View all <img class="viev-all_img "src="img/arrow_right.svg" alt=""></button>
+            </div>
+            <div class="activities__wrapper">
+                <div class="activities__card">
+                    <img src="img/activities_img1.png" alt="" class="activities_img">
+                    <div class="activities_text">Sailing</div>
+                </div>
+                <div class="activities__card">
+                    <img src="img/activities_img2.png" alt="" class="activities_img">
+                    <div class="activities_text">Climbing</div>
+                </div>
+                <div class="activities__card">
+                    <img src="img/activities_img3.png" alt="" class="activities_img">
+                    <div class="activities_text">Skiing</div>
+                </div>
+                <div class="activities__card">
+                    <img src="img/activities_img4.png" alt="" class="activities_img">
+                    <div class="activities_text">Hiking</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about_wrapper">
+                <div class="about_box">
+                    <div class="head_text">About Us</div>
+                    <div class="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                    <button class="viev-all read-more">Read more<img class="viev-all_img "src="img/arrow_right.svg" alt=""></button>
+                </div>
+                <img src="img/about_img.png" alt="" class="about_img">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="foot">
+    <div class="container">
+        <div id="contacts" class="foot_wrapper">
+            <div class="foot_box">
+                <img src="img/logo2.svg" alt="" class="foot_logo">
+                <div class="foot_text">We always make our customers happy by providing as many choises as possible</div>
+                <div class="foot_social">
+                    <a href="#" class="foot_link">
+                        <img src="img/facebook.svg" alt="" class="foot_icon"></a>
+                    <a href="#" class="foot_link">
+                        <img src="img/twitter.svg" alt="" class="foot_icon"></a>
+                    <a href="#" class="foot_link">
+                        <img src="img/instagram.svg" alt="" class="foot_icon"></a>
+            </div>
+            </div>
+            <div class="foot_box">
+                <div class="foot_head-text">About</div>
+                <div class="foot_text"><a href="#" class="foot_link">About Us</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Features</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">News</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Menu</a></div>
+            </div>
+            <div class="foot_box">
+                <div class="foot_head-text">Company</div>
+                <div class="foot_text"><a href="#" class="foot_link">Why 2rism</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Partner With Us</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">FAQ</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Blog</a></div>
+            </div>
+            <div class="foot_box">
+                <div class="foot_head-text">Support</div>
+                <div class="foot_text"><a href="#" class="foot_link">Account</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Support Center</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Feedback</a></div>
+                <div class="foot_text"><a href="#" class="foot_link">Contact Us</a></div>
+            </div>
+            <div class="foot_box">
+                <div class="foot_head-text foot_last">Subscribe on our destination review <br>newsletters</div>
+                <form class="foot_email">
+                    <input type="email" placeholder="johndoe@gmail.com" class="foot_mail">
+                    <input type="submit" value="" class="search_btn"><img src="img/go.svg" alt=""></input>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

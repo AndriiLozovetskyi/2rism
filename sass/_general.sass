@@ -1,0 +1,383 @@
+.head-section
+	min-height: 720px
+	border-bottom-right-radius: 30px
+	border-bottom-left-radius: 30px
+	background: url('../img/main_bg2.jpg') center center/cover
+	&_button
+		display: block
+		width: 272px
+		height: 72px
+		border-radius: 12px
+		background: var(--theme-primary, #7B61FF)
+		margin: 0 auto
+		margin-top: 32px
+		color: white
+		border: none
+		transition: .5s
+		&:hover
+			transform: scale(1.1)
+			transition: .5s
+	&_ico
+		display: none
+		width: 30px
+		height: 18px
+		position: relative
+		z-index: 5
+		cursor: pointer
+		margin-top: 30px
+		span
+			position: absolute
+			top: calc( 50% - 1px )
+			left: 0px
+			width: 100%
+			height: 2px
+			background-color: white
+			transition: .5s
+			&:first-child
+				top:0
+			&:last-child
+				bottom: 0
+				top: auto
+	
+.cont
+	display: flex
+	justify-content: space-between
+	padding-top: 30px
+.menu
+	list-style: none
+	margin:0 80px
+.menu__list
+	display: flex
+	gap: 40px
+	list-style: none
+.menu__body	
+	display: flex
+	align-items: center
+	justify-content: center
+	margin-top: 30px
+	&_link
+		text-decoration: none
+		color: var(--theme-white, #FFF)
+		font-size: 14px
+		font-weight: 400
+		opacity: .7
+		transition: .5s
+		&:hover
+			transition: .5s
+			opacity: 1
+			color: purple
+	&_user
+		display: flex
+		margin-left: 40px
+		margin-top: -20px
+		&__sub-text
+			text-align: right
+			color: silver
+			font-size: 14px
+			font-weight: 400
+			line-height: 20px
+		&_icon
+			width: 50px
+			height: 50px
+			border-radius: 100%
+			margin-left: 10px
+			margin-top: 5px
+		&__name
+			color: var(--theme-white, #FFF)
+			font-size: 14px
+			font-weight: 500
+			line-height: 20px
+			text-transform: capitalize
+			text-align: right
+	&__menu
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin: 0 auto
+.logo_img
+	width: 88px
+	height: 35px
+	margin-top: 20px
+h1
+	margin-top: 170px
+	text-align: center
+	color: #FFF
+	font-size: 48px
+	font-weight: 600
+	line-height: 62px
+.search_bar
+	margin: 0 auto
+	margin-top: 150px
+	display: flex
+	justify-content: space-between
+	gap: 30px
+	align-items: center
+	max-width: 1125px
+	min-height: 72px
+	background-color: white
+	border-radius: 20px
+	padding: 0 20px
+	padding-left: 5	0px
+	flex-wrap: wrap
+	&__block
+		margin: 0  auto
+.search_img
+	margin-right: -40px
+	margin: 10px auto
+.search_descr
+	color: #979797
+	font-size: 14px
+	font-weight: 400
+	line-height: 20px
+select,input
+	color: #161414
+	font-size: 16px
+	font-weight: 500
+	line-height: 24px
+	border: none
+	-webkit-appearance: none
+	-moz-appearance: none
+	appearance: none
+.search_btn
+	width: 60px
+	height: 60px
+	border: none
+	border-radius: 12px
+	background: var(--theme-primary, #7B61FF)
+	transition: .5s
+	&:hover
+		transform: scale(1.1)
+		transition: .5s
+.head_text
+	color: var(--theme-body, #161414)
+	font-size: 32px
+	font-weight: 600
+	line-height: 48px
+	margin-top: 120px
+	margin-bottom: 64px
+	text-align: left
+.popular_dest
+	min-height: 440px
+	&__cards
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-wrap: wrap
+		gap: 20px
+.card
+	border: none
+	margin: 0 auto
+	&_img
+		border-radius: 24px
+		border: none
+		transition: .5s
+		width: 190px
+		height: 190px
+		&:hover
+			transform: scale(1.1)
+			transition: .5s
+	&_name
+		margin-top: 10px
+		color: var(--theme-body, #161414)
+		font-size: 16px
+		font-style: bold
+		font-weight: 500
+	&_lock
+		color: var(--theme-body-muted, #979797)
+		font-size: 14px
+		font-weight: 400
+.hotels
+	min-height: 700px
+	&_img
+		height: 360px
+		width: 300px
+		transition: .5s
+		&:hover
+			transform: scale(1.1) translateY(-10px)
+			transition: .5s
+	&_cards
+		display: flex
+		justify-content: center
+		align-items: center
+		gap: 32px
+	&_name
+		color: var(--theme-body, #161414)
+		font-size: 16px
+		font-weight: 500
+		margin-top: 10px
+	&_location
+		color: var(--theme-body-muted, #979797)
+		font-size: 14px
+		font-weight: 400
+		transform: translateX(-50px)
+	&_bottom
+		display: flex
+		align-items: center
+		justify-content: space-between
+.head_top
+	display: flex
+	justify-content: space-between
+	align-items: center
+.viev-all
+	margin-top: 60px
+	width: 105px
+	height: 40px
+	border-radius: 12px
+	background: var(--theme-primary-muted, #F6F4FF)
+	border: none
+	color: var(--theme-primary, #7B61FF)
+	font-size: 16px
+	font-weight: 400
+	&:hover .viev-all_img
+		transform: translateX(5px)
+		transition: .5s
+.viev-all_img
+	transition: .5s
+.last
+	transform: translateX(0px)
+.travel
+	min-height: 700px
+	&_img
+		width: 316px
+		height: 380px
+	&__blocks
+		display: flex
+		justify-content: center
+		align-items: center
+		gap: 32px	
+	&_block
+		display: flex
+		justify-content: center
+		gap: 32px
+		margin: 0 auto
+	&_descr
+		&_head
+			color: var(--theme-body, #161414)
+			font-size: 24px
+			font-weight: 600
+		&_text
+			color: var(--theme-body-muted, #979797)
+			font-size: 16px
+			font-weight: 400
+			margin-top: 60px
+			min-width: 316px
+		&_bottom
+			display: flex
+			align-items: center
+			gap: 24px
+			margin-top: 80px
+		&_social
+			color: var(--theme-body-muted, #979797)
+			font-size: 12px
+			font-weight: 400
+			&:nth-child(1)::before
+				content: url("../img/calendar.svg")
+				margin-right: 10px
+			&:nth-child(2)::before
+				content: url("../img/human.svg")
+				margin-right: 10px
+			&:nth-child(3)::before
+				content: url("../img/comentars.svg")
+				margin-right: 10px
+.bottom_second
+	margin-top: 105px
+.activities
+	min-height: 600px
+	&__wrapper
+		display: flex
+		align-items: center
+		gap: 32px
+	&_text
+		color: var(--theme-body, #161414)
+		font-size: 16px
+		font-weight: 500
+		margin-top: 10px
+	&__card
+		margin: auto
+.about
+	min-height: 650px
+	&_wrapper
+		display: flex
+		align-items: center
+		justify-content: center
+		gap: 32px
+		flex-wrap: wrap	
+	&_text
+		max-width: 548px
+		color: #5B5B5B
+		font-size: 16px
+		font-weight: 400
+		line-height: 32px
+	&_img
+		border-radius: 20px
+		margin-top: 120px
+		margin-bottom: 100px
+.read-more
+	width: 130px
+.foot
+	min-height: 405px
+	background: #F9F9F9
+	display: flex
+	align-items: center
+	&_box
+		margin-top: 20px
+	&_head-text
+		color: var(--theme-body, #161414)
+		font-size: 18px
+		font-weight: 500
+	&_wrapper
+		display: flex
+		align-items: center
+		justify-content: center
+		gap: 58px
+		margin: auto
+		flex-wrap: wrap
+	&_text
+		margin-top: 15px
+		color: var(--theme-body-muted, #979797)
+		font-size: 14px
+		font-weight: 400
+		max-width: 354px
+	&_social
+		margin-top: 32px
+		display: flex
+		align-items: center
+		gap: 32px
+	&_icon
+		transition: .5s
+		&:hover
+			transform: scale(1.1)
+			transition: .5s
+	&_link
+		text-decoration: none
+		color: var(--theme-body-muted, #979797)
+		font-size: 14px
+		font-weight: 400
+	&_last
+		margin-bottom: 70px
+	&_email
+		display: flex
+		gap: 16px
+		align-items: center
+	&_mail
+		border-radius: 12px
+		background: var(--theme-white, #FFF)
+		width: 300px
+		height: 72px
+		padding: 16px
+input[type=submit]
+	place-content: none
+	background: var(--theme-primary, #7B61FF) url('../img/go.svg') center  no-repeat
+
+::-webkit-scrollbar 
+	width: 2px
+::-webkit-scrollbar-track 
+	background: black
+::-webkit-scrollbar-thumb 
+	background: purple
+	border-radius: 50px
+
+
+
+	
+
